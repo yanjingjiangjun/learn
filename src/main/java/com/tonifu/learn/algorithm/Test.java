@@ -1,9 +1,6 @@
 package com.tonifu.learn.algorithm;
 
-import com.tonifu.learn.algorithm.sort.BubbleSort;
-import com.tonifu.learn.algorithm.sort.InsertSort;
-import com.tonifu.learn.algorithm.sort.SelectedSort;
-import com.tonifu.learn.algorithm.sort.SortUtil;
+import com.tonifu.learn.algorithm.sort.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -27,16 +24,21 @@ public class Test {
         System.out.println("");
         System.out.println("=============");
         //SelectedSort.sort(tmp);
-        InsertSort.sort(tmp);
+        //InsertSort.sort(tmp);
+        //InsertSort.sortBetter(tmp);
         //BubbleSort.sort(tmp);
         //BubbleSort.sortNormal(tmp);
         //BubbleSort.sortMoreBetter(tmp);
         //BubbleSort.sortMoreBetter2(tmp);
+        //ShellSort.test2(tmp);
+        MergeSort.sort(tmp);
         SortUtil.check(tmp,arr);
         for(int i:tmp){
             System.out.print(i+" ");
         }
         System.out.println("");
+        //TestP tp=new TestS();
+        //TestS ts=(TestS)tp;
     }
     /*public static int[] generateCase(int maxLen,int maxValue){
         int len=(int)(Math.random()*maxLen);

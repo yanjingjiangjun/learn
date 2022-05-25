@@ -11,11 +11,29 @@ public class InsertSort {
         if(arr.length==1)return arr;
         int len=arr.length;
         for(int i=1;i<len;i++){
-            for(int j=i;j>0;j--){//循环查找i之前的数据 发现比arr[i]大的就交换
-                if(arr[j]<arr[j-1]){
-                    SortUtil.swap(arr,j,j-1);
+            if(arr[i]<arr[i-1]){
+                for(int j=i;j>0;j--){//循环查找i之前的数据 发现比arr[i]大的就交换
+                    if(arr[j]<arr[j-1]){
+                        SortUtil.swap(arr,j,j-1);
+                    }
                 }
             }
+        }
+        return arr;
+    }
+
+    public static int[] sortBetter(int[] arr){
+        if(null==arr||arr.length==0)return new int[0];
+        if(arr.length==1)return arr;
+        int len=arr.length;
+        for(int i=1;i<len;i++){
+            int temp=arr[i];
+            int j=i-1;
+            for(;j>=0&&temp<arr[j];j--){
+                arr[j+1]=arr[j];//将前面的后移直到找到比目标数字小的或者相等的数据位置
+            }
+            arr[j+1]=temp;
+
         }
         return arr;
     }
