@@ -37,7 +37,7 @@ public class MergeSort {
         int l=left;
         int r=mid+1;
         int idx=0;
-        while(l<=mid&&r<=right){
+        while(l<=mid&&r<=right){//左边最远到mid 这个是关键 别忘了
             if(arr[l]<arr[r]){
                 temp[idx++]=arr[l++];
             }else{

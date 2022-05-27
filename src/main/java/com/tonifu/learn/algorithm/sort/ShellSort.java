@@ -100,11 +100,43 @@ public class ShellSort {
             for(int i=step;i<len;i++){
                 int j=i;
                 int temp=arr[j];
-                while(j-step>=0&&arr[j]<arr[j-step]){
+                while(j-step>=0&&temp<arr[j-step]){
                     arr[j]=arr[j-step];
                     j-=step;
                 }
+                arr[j]=temp;
+            }
+        }
+    }
 
+    public static void test3(int[] arr){
+        if(null==arr||arr.length<2)return;
+        int len=arr.length;
+        for(int step=len/2;step>0;step=step/2){
+            for(int i=step;i<len;i++){
+                int j=i;
+                int temp=arr[j];
+                while(j-step>=0&&temp<arr[j-step]){
+                    arr[j]=arr[j-step];
+                    j-=step;
+                }
+                arr[j]=temp;
+            }
+        }
+    }
+
+    public static void sortTest4(int[] arr){
+        if(null==arr||arr.length<2)return;
+        int len=arr.length;
+        for(int step=len/2;step>0;step/=2){
+            for(int i=step;i<len;i++){
+                int j=i;
+                int temp=arr[j];
+                for(;j-step>=0&&temp<arr[j-step];j-=step ){
+                    arr[j]=arr[j-step];
+
+                }
+                arr[j]=temp;
             }
         }
     }

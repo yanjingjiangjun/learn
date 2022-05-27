@@ -17,6 +17,7 @@ public class Test {
         //SelectedSort.sort(tmp);
         //tmp=new int[]{1,5, 6, 1, 1, 7};
         //tmp=new int[]{2 ,7 ,3, 2 };
+        //tmp=new int[]{8 ,6, 4, 4, 0};
         //InsertSort.sort(tmp);
         for(int i:arr){
             System.out.print(i+" ");
@@ -30,8 +31,10 @@ public class Test {
         //BubbleSort.sortNormal(tmp);
         //BubbleSort.sortMoreBetter(tmp);
         //BubbleSort.sortMoreBetter2(tmp);
-        //ShellSort.test2(tmp);
-        MergeSort.sort(tmp);
+        //ShellSort.sortTest4(tmp);
+        //PracticeMergeSort.sort(tmp);
+        //PracticeMergeSort.sort2(tmp);
+        PracticeMergeSort.sortTest3(tmp);
         SortUtil.check(tmp,arr);
         for(int i:tmp){
             System.out.print(i+" ");
