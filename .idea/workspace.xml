@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4efd965e-9adf-447e-8c88-f67d490bee0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpDfm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/PracticeMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/PracticeMergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/KMP.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <state relative-caret-position="206">
+              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -253,7 +248,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1653991736923" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1653991920658" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -374,11 +369,18 @@
       <option name="project" value="LOCAL" />
       <updated>1653635586198</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="KMP解析">
+      <created>1653991753369</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653991753369</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42352000" />
+    <option name="totallyTimeSpent" value="42540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="710" extended-state="0" />
@@ -423,7 +425,8 @@
     <MESSAGE value="test2" />
     <MESSAGE value="加入希尔排序和归并排序" />
     <MESSAGE value="希尔排序和归并排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="希尔排序和归并排序" />
+    <MESSAGE value="KMP解析" />
+    <option name="LAST_COMMIT_MESSAGE" value="KMP解析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -454,31 +457,31 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
-          <line>50</line>
+          <line>52</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
-          <line>58</line>
+          <line>60</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
-          <line>74</line>
+          <line>76</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
-          <line>73</line>
+          <line>75</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
-          <line>64</line>
+          <line>66</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -607,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="206">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
         </state>
       </provider>
     </entry>
