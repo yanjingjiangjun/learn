@@ -1,15 +1,18 @@
 package com.tonifu.learn.algorithm;
 
 import com.tonifu.learn.algorithm.sort.*;
+import com.tonifu.learn.algorithm.stringMatch.KmpPmt;
 
 public class Test {
     public static void main(String[] args) {
         //KMP kmp=new KMP("ABABC");
         //int idx=kmp.search("ABABABABC");
         //System.out.println(idx);
-        for(int i=0;i<10000;i++){
+        KmpPmt kmpPmt=new KmpPmt();
+        kmpPmt.match("ABABABABC","ABABC");
+        /*for(int i=0;i<10000;i++){
             test();
-        }
+        }*/
     }
     private static void test(){
         int[] arr=CaseGenerate.lenRandomValueRandom(9,9);
@@ -32,9 +35,10 @@ public class Test {
         //BubbleSort.sortMoreBetter(tmp);
         //BubbleSort.sortMoreBetter2(tmp);
         //ShellSort.sortTest4(tmp);
+        ShellSort.test5(tmp);
         //PracticeMergeSort.sort(tmp);
         //PracticeMergeSort.sort2(tmp);
-        PracticeMergeSort.sortTest3(tmp);
+        //PracticeMergeSort.sortTest3(tmp);
         SortUtil.check(tmp,arr);
         for(int i:tmp){
             System.out.print(i+" ");

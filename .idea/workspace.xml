@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4efd965e-9adf-447e-8c88-f67d490bee0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpDfm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/KMP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/PracticeMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/PracticeMergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/Test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,17 +24,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+            <state relative-caret-position="56">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/KMP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpDfm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -38,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/PracticeMergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="110" column="20" lean-forward="true" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+            <state relative-caret-position="-52">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="e#281#282#0" expanded="true" />
                 <element signature="e#301#302#0" expanded="true" />
@@ -53,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="135" column="39" lean-forward="true" selection-start-line="135" selection-start-column="39" selection-end-line="135" selection-end-column="39" />
+            <state relative-caret-position="155">
+              <caret line="143" column="28" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -82,33 +116,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="99">
               <caret line="24" column="34" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/CaseGenerate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/SortUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -142,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/KMP.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/CaseGenerate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/tt.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/SortUtil.java" />
@@ -150,10 +156,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/TestS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/ShellSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/PracticeMergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/PracticeMergeSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/KMP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpDfm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java" />
       </list>
     </option>
   </component>
@@ -234,18 +243,6 @@
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tonifu" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -256,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1653635531060" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1653991736923" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -363,11 +360,25 @@
       <option name="project" value="LOCAL" />
       <updated>1653464527792</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="希尔排序和归并排序">
+      <created>1653635559664</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653635559665</updated>
+    </task>
+    <task id="LOCAL-00005" summary="希尔排序和归并排序">
+      <created>1653635586198</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653635586198</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29247000" />
+    <option name="totallyTimeSpent" value="42352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="710" extended-state="0" />
@@ -411,7 +422,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test2" />
     <MESSAGE value="加入希尔排序和归并排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入希尔排序和归并排序" />
+    <MESSAGE value="希尔排序和归并排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="希尔排序和归并排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -440,17 +452,40 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/KMP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/tt.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/SelectedSort.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -519,24 +554,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/ShellSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="135" column="39" lean-forward="true" selection-start-line="135" selection-start-column="39" selection-end-line="135" selection-end-column="39" />
+        <state relative-caret-position="114">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        <state relative-caret-position="155">
+          <caret line="143" column="28" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/PracticeMergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="110" column="20" lean-forward="true" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+        <state relative-caret-position="-52">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="e#281#282#0" expanded="true" />
             <element signature="e#301#302#0" expanded="true" />
@@ -546,10 +581,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpDfm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
         </state>
       </provider>
     </entry>

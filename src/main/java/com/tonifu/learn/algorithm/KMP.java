@@ -18,7 +18,6 @@ public class KMP {
             for (int c = 0; c < 256; c++) {
                 if (pat.charAt(j) == c) {
                     dp[j][c] = j + 1;
-                    break;
                 }else {
                     dp[j][c] = dp[X][c];
                 }
