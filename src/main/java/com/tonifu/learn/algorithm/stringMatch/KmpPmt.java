@@ -1,5 +1,7 @@
 package com.tonifu.learn.algorithm.stringMatch;
 
+import java.util.Arrays;
+
 /**
  * https://juejin.cn/post/6856374004421722125#heading-5
  * https://juejin.cn/post/6854573206896918542
@@ -27,7 +29,7 @@ package com.tonifu.learn.algorithm.stringMatch;
  * 前缀：a,aa,aab,aabb
  * 后缀：a,ba,bba,abba
  * 相同前后缀 a 长度为1
- *它的前1位前缀和后1位后缀是相同的，所以我们推知主字符串i之前的1位和模式字符串开头的1位是相同的a，那这部分就不用再比较了
+ * 它的前1位前缀和后1位后缀是相同的，所以我们推知主字符串i之前的1位和模式字符串开头的1位是相同的a，那这部分就不用再比较了
  * aabbacaabbaa
  *     aabbaa
  *
@@ -62,6 +64,7 @@ public class KmpPmt {
         if(patten.length()==0)return 0;
         int len=text.length();
         int i=0;
+
         int j=0;
         int ans=-1;
         while(i<len&&j<patten.length()){
@@ -78,7 +81,7 @@ public class KmpPmt {
     }
 
     /**
-     * "ABABABABC","ABABC"
+     * "ABABC"
      * @param patten
      */
     private void getNext(String patten){
@@ -93,14 +96,62 @@ public class KmpPmt {
                 j++;
                 i++;
                 next[i]=j;//下标为i的字符的共同前后缀长度
-                System.out.print(i+","+j);
+                //System.out.print(i+","+j);
             }else{
                 j=next[j];
-                System.out.print("j="+j);
+                //System.out.print("j="+j);
             }
-            System.out.println();
+            //System.out.println();
         }
 
+    }
+
+
+    private void getNext2(String patten){
+        if(null==patten||patten.length()==0){
+            if(null==next)next=new int[0];
+            return;
+        }
+        int len=patten.length();
+        int i=0;
+        int j=-1;
+        if(null==next)next=new int[len+1];
+        next[0]=-1;
+        while(i<len){
+            if(j==-1||patten.charAt(i)==patten.charAt(j)){
+                i++;
+                j++;
+                next[i]=j;
+            }else{
+                j=next[j];
+            }
+        }
+    }
+
+    public int match2(String text,String patten){
+        if(null==text||null==patten)return -1;
+        if(patten.length()==0)return 0;
+        int len=text.length();
+        int i=0;
+        int j=0;
+        getNext2(patten);
+        System.out.println(Arrays.toString(next));
+        while(i<len&&j<patten.length()){
+            if(j==-1||text.charAt(i)==patten.charAt(j)){
+                i++;
+                j++;
+            }else{
+                j=next[j];
+               // System.out.println(j);
+            }
+
+        }
+        System.out.println(j);
+        if(j==patten.length()){
+            System.out.println(i-j);
+            return i-j;
+        }
+        return -1;
     }
 
 }

@@ -8,11 +8,11 @@ public class Test {
         //KMP kmp=new KMP("ABABC");
         //int idx=kmp.search("ABABABABC");
         //System.out.println(idx);
-        KmpPmt kmpPmt=new KmpPmt();
-        kmpPmt.match("ABABABABC","ABABC");
-        /*for(int i=0;i<10000;i++){
+        //KmpPmt kmpPmt=new KmpPmt();
+        //kmpPmt.match2("abc","c");
+        for(int i=0;i<10000;i++){
             test();
-        }*/
+        }
     }
     private static void test(){
         int[] arr=CaseGenerate.lenRandomValueRandom(9,9);
@@ -21,24 +21,25 @@ public class Test {
         //tmp=new int[]{1,5, 6, 1, 1, 7};
         //tmp=new int[]{2 ,7 ,3, 2 };
         //tmp=new int[]{8 ,6, 4, 4, 0};
+        //tmp=new int[]{2,1, 1, 7, 2 };
         //InsertSort.sort(tmp);
         for(int i:arr){
             System.out.print(i+" ");
         }
         System.out.println("");
         System.out.println("=============");
-        //SelectedSort.sort(tmp);
+        //SelectedSort.test(tmp);
         //InsertSort.sort(tmp);
         //InsertSort.sortBetter(tmp);
+        //InsertSort.test2(tmp);
         //BubbleSort.sort(tmp);
         //BubbleSort.sortNormal(tmp);
         //BubbleSort.sortMoreBetter(tmp);
         //BubbleSort.sortMoreBetter2(tmp);
-        //ShellSort.sortTest4(tmp);
-        ShellSort.test5(tmp);
-        //PracticeMergeSort.sort(tmp);
-        //PracticeMergeSort.sort2(tmp);
-        //PracticeMergeSort.sortTest3(tmp);
+        //ShellSort.test5(tmp);
+        //ShellSort.testShellSort(tmp);
+       // PracticeMergeSort.sort(tmp);
+        QuickSort.sortTest(tmp);
         SortUtil.check(tmp,arr);
         for(int i:tmp){
             System.out.print(i+" ");

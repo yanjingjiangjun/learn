@@ -75,66 +75,16 @@ public class ShellSort {
 
     }
 
-    public static int[] sortTest(int[] arr){
-        if(null==arr)return new int[0];
-        if(arr.length<2)return arr;
-        int len=arr.length;
-        for(int step=len/2;step>0;step/=2){
-            for(int i=step;i<len;i++){
-                int j=i;
-                int temp=arr[j];
-                while(j-step>=0&&temp<arr[j-step]){
-                    SortUtil.swap(arr,j,j-step);
-                    j-=step;
-                }
-            }
-        }
-        return arr;
-    }
-
-    public static void test2(int[] arr){
-        if(null==arr)return;
-        if(arr.length<2)return;
-        int len=arr.length;
-        for(int step=len/2;step>0;step/=2){
-            for(int i=step;i<len;i++){
-                int j=i;
-                int temp=arr[j];
-                while(j-step>=0&&temp<arr[j-step]){
-                    arr[j]=arr[j-step];
-                    j-=step;
-                }
-                arr[j]=temp;
-            }
-        }
-    }
-
-    public static void test3(int[] arr){
-        if(null==arr||arr.length<2)return;
-        int len=arr.length;
-        for(int step=len/2;step>0;step=step/2){
-            for(int i=step;i<len;i++){
-                int j=i;
-                int temp=arr[j];
-                while(j-step>=0&&temp<arr[j-step]){
-                    arr[j]=arr[j-step];
-                    j-=step;
-                }
-                arr[j]=temp;
-            }
-        }
-    }
-
-    public static void sortTest4(int[] arr){
+    public static void testShellSort(int[] arr){
         if(null==arr||arr.length<2)return;
         int len=arr.length;
         for(int step=len/2;step>0;step/=2){
             for(int i=step;i<len;i++){
                 int j=i;
                 int temp=arr[j];
-                for(;j-step>=0&&temp<arr[j-step];j-=step ){
-                    arr[j]=arr[j-step];
-
+                while(j-step>=0&&temp<arr[j-step]){
+                    arr[j]=arr[j-step];//移动法 将大于目标值的元素移动到后面 直到小于等于停止
+                    j-=step;
                 }
                 arr[j]=temp;
             }
@@ -147,12 +97,9 @@ public class ShellSort {
         for(int step=len/2;step>0;step/=2){
             for(int i=step;i<len;i++){
                 int j=i;
-                int temp=arr[j];
-                while(j-step>=0&&temp<arr[j-step]){
-                    arr[j]=arr[j-step];
-                    j-=step;
+                for(;j-step>=0&&arr[j]<arr[j-step];j-=step){
+                    SortUtil.swap(arr,j,j-step);
                 }
-                arr[j]=temp;
             }
         }
     }

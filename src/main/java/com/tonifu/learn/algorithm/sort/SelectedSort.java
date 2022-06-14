@@ -19,4 +19,16 @@ public class SelectedSort {
         return arr;
     }
 
+    public static void test(int[] arr){
+        if(null==arr||arr.length<2)return;
+        int len=arr.length;
+        for(int i=0;i<len;i++){
+            int minIdx=i;
+            for(int j=i+1;j<len;j++){
+                minIdx=arr[j]<arr[minIdx]?j:minIdx;
+            }
+            if(minIdx!=i)SortUtil.swap(arr,minIdx,i);
+        }
+    }
+
 }

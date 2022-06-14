@@ -133,4 +133,38 @@ public class BubbleSort {
         }
         return arr;
     }
+
+    public static void test2(int[] arr){
+        if(null==arr||arr.length<2)return;
+        int len=arr.length;
+        for(int i=len-1;i>=0;i--){
+            boolean swap=false;
+            for(int j=0;j<i;j++){
+                if(arr[j]>arr[j+1]){
+                    SortUtil.swap(arr,j,j+1);
+                    swap=true;
+                }
+            }
+            if(!swap)break;
+        }
+    }
+
+    public static void test3(int[] arr){
+        if(null==arr||arr.length<2)return;
+        int len=arr.length;
+        int lastSwapIndex=0;
+        for(int i=len-1;i>=0;i--){
+            boolean swap=false;
+
+            for(int j=0;j<i;j++){
+                if(arr[j]>arr[j+1]){
+                    SortUtil.swap(arr,j,j+1);
+                    swap=true;
+                    lastSwapIndex=j;
+                }
+            }
+            i=lastSwapIndex+1;
+            if(!swap)break;
+        }
+    }
 }

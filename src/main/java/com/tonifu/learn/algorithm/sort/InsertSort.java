@@ -37,4 +37,28 @@ public class InsertSort {
         }
         return arr;
     }
+
+    public static void testInsertSort(int[] arr){
+        if(null==arr||arr.length<2)return;
+        for(int i=1;i<arr.length;i++){
+            int j=i-1;
+            int temp=arr[i];
+            for(;j>=0&&arr[j]>temp;j--){
+                arr[j+1]=arr[j];
+            }
+            arr[j+1]=temp;
+        }
+    }
+    public static void test2(int[] arr){
+        if(null==arr||arr.length<2)return;
+        for(int i=1;i<arr.length;i++){
+            if(arr[i]<arr[i-1]){
+                for(int j=i-1;j>=0;j--){
+                    if(arr[j]>arr[j+1]){
+                        SortUtil.swap(arr,j,j+1);
+                    }
+                }
+            }
+        }
+    }
 }
