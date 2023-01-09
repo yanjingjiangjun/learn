@@ -61,4 +61,47 @@ public class InsertSort {
             }
         }
     }
+
+    public static void test3(int[] arr){
+        if(null==arr||arr.length<2)return;
+        int len=arr.length;
+        for(int i=1;i<len;i++){
+            if(arr[i]<arr[i-1]){
+                for(int j=i-1;j>=0;j--){
+                    if(arr[j+1]<arr[j]){
+                        SortUtil.swap(arr,j+1,j);
+                    }
+                }
+            }
+        }
+    }
+
+    public static void test4(int[] arr){
+        if(null==arr||arr.length<2)return;
+        for(int i=1;i<arr.length;i++){
+            for(int j=i-1;j>=0&&arr[j+1]<arr[j];j--){
+                SortUtil.swap(arr,j,j+1);
+            }
+        }
+    }
+    public static void test5(int[] arr){
+        if(null==arr||arr.length<2)return;
+        int idx=0;
+        for(int i=1;i<arr.length;i++){
+            idx=i;
+            for(int j=i-1;j>=0&&arr[j]>arr[j+1];j--){
+                SortUtil.swap(arr,j,j+1);
+            }
+            //if(i!=idx)SortUtil.swap(arr,i,idx);
+        }
+    }
+
+    public static void test6(int[] arr){
+        if(null==arr||arr.length<2)return;
+        for(int i=1;i<arr.length;i++){
+            for (int j=i-1;j>=0&&arr[j]>arr[j+1];j--){
+                SortUtil.swap(arr,j,j+1);
+            }
+        }
+    }
 }

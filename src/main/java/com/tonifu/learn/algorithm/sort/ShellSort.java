@@ -75,32 +75,34 @@ public class ShellSort {
 
     }
 
-    public static void testShellSort(int[] arr){
-        if(null==arr||arr.length<2)return;
+    public static void test(int[] arr){
+        if(null==arr||arr.length<2){
+            return;
+        }
         int len=arr.length;
         for(int step=len/2;step>0;step/=2){
             for(int i=step;i<len;i++){
                 int j=i;
                 int temp=arr[j];
-                while(j-step>=0&&temp<arr[j-step]){
-                    arr[j]=arr[j-step];//移动法 将大于目标值的元素移动到后面 直到小于等于停止
-                    j-=step;
+                for(;j-step>=0&&temp<arr[j-step];j-=step){
+                    SortUtil.swap(arr,j-step,j);
                 }
-                arr[j]=temp;
             }
         }
     }
 
-    public static void test5(int[] arr){
+    public static void test2(int[] arr){
         if(null==arr||arr.length<2)return;
         int len=arr.length;
-        for(int step=len/2;step>0;step/=2){
+        int step=len/2;
+        for(;step<len;step/=2){
             for(int i=step;i<len;i++){
-                int j=i;
-                for(;j-step>=0&&arr[j]<arr[j-step];j-=step){
-                    SortUtil.swap(arr,j,j-step);
+                int temp=arr[i];
+                for(int j=i;j-step>=0&&temp<arr[j-step];j-=step){
+                    SortUtil.swap(arr,j-step,j);
                 }
             }
         }
     }
+
 }

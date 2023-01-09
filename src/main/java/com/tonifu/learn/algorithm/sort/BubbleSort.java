@@ -167,4 +167,20 @@ public class BubbleSort {
             if(!swap)break;
         }
     }
+
+    public static void test4(int[] arr){
+        if(null==arr||arr.length<2)return;
+        int len=arr.length;
+        for(int i=len-1;i>=0;i--){
+            boolean swap=false;
+            for(int j=0;j<i;j++){
+                if(arr[j]>=arr[j+1]){
+                    SortUtil.swap(arr,j,j+1);
+                    swap=true;
+                }
+
+            }
+            if(!swap)break;
+        }
+    }
 }

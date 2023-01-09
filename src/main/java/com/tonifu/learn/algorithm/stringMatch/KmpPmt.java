@@ -3,6 +3,14 @@ package com.tonifu.learn.algorithm.stringMatch;
 import java.util.Arrays;
 
 /**
+ *
+ * 核心核心核心记住：
+ * KMP的PMT模式匹配法 就是计算模式串的下一次比较开始位置是从第一个字符开始还是其他字符，getNext匹配表就是计算开始位置的。
+ * 匹配的时候已经有一部分匹配到了 就是模式串有一部分和目标字符串匹配到了 那么这一部分就是和模式串一部分相同的，所以我们可以利用这一思想，
+ * 去利用模式串自身去计算部分匹配表（getNext方法原理）
+ * 取出匹配的这一部分，查找部门匹配表（getNext获取的next数组的值）
+ *
+ *
  * https://juejin.cn/post/6856374004421722125#heading-5
  * https://juejin.cn/post/6854573206896918542
  * https://www.zhihu.com/question/21923021/answer/281346746 海纳的回答
@@ -39,6 +47,8 @@ import java.util.Arrays;
  * aabbacaabbaa
  *       aabbaa
  *
+ *其实就是找到匹配字符串的开始下标位置，
+ * 匹配在i处失败了 就是i位置前面的都成功了 i之前的共同前后缀，匹配字符串的公共前缀放在相同后缀位置 就避免了重复匹配，
  *
  *
  * @Author fuj
@@ -149,6 +159,46 @@ public class KmpPmt {
         System.out.println(j);
         if(j==patten.length()){
             System.out.println(i-j);
+            return i-j;
+        }
+        return -1;
+    }
+
+    public void getNext3(String patten){
+        if(null==patten||patten.length()==0){
+            return ;
+        }
+        int len=patten.length();
+        int i=0;
+        int j=-1;
+        if(null==next)next=new int[len+1];
+        while(i<len){
+            if(j==-1||patten.charAt(i)==patten.charAt(j)){
+                i++;
+                j++;
+                next[i]=j;
+            }else{
+                j=next[j];
+            }
+        }
+    }
+
+    public int match3(String text,String patten){
+        if(null==text||null==patten)return -1;
+        if(patten.length()==0)return 0;
+        int len=text.length();
+        int i=0;
+        int j=0;
+        getNext3(patten);
+        while(i<len){
+            if(j==-1||text.charAt(i)==patten.charAt(j)){
+                i++;
+                j++;
+            }else{
+                j=next[j];
+            }
+        }
+        if(j==len){
             return i-j;
         }
         return -1;
