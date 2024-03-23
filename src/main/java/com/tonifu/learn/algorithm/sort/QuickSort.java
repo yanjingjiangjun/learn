@@ -1,7 +1,9 @@
 package com.tonifu.learn.algorithm.sort;
 
 /**
- *
+ *快速排序算法分为两步：1）随便选一个“中间值”（一般是一堆数字里面的第一个数字），
+ * 然后以这个数字为基准，把所有数字分成两堆，一堆是小于等于这个数字的，一堆是大于等于这个数字的。
+ * 2）然后用递归调用快速排序算法，分别对这两堆数字进行排序
  * @Author fuj
  * @Date 2022-06-01 16:55
  * @PackageName:com.tonifu.learn.algorithm.sort
@@ -158,6 +160,41 @@ public class QuickSort {
             }
             SortUtil.swap(arr,start,end);
         }
+        return start;
+
+    }
+
+    public static void doSortTest3(int[] arr){
+        if(null==arr||arr.length<2)return;
+        int len=arr.length;
+        int left=0;
+        int right=len-1;
+        doRealSortTest3(arr,left,right);
+    }
+
+    private static void doRealSortTest3(int[] arr, int left, int right) {
+        if(left>=right)return;
+        int partionIndex=partionTest3(arr,left,right);
+        doRealSortTest3(arr,left,partionIndex-1);
+        doRealSortTest3(arr,partionIndex+1,right);
+    }
+
+    private static int partionTest3(int[] arr, int left, int right) {
+        int start=left;
+        int end=right;
+        int pivot=arr[left];
+        while(start<end){
+            while(start<end&&pivot<arr[end]){
+                end--;
+            }
+            arr[start]=arr[end];
+            while(start<end&&pivot>=arr[start]){
+                start++;
+            }
+            arr[end]=arr[start];
+
+        }
+        arr[start]=pivot;
         return start;
 
     }
