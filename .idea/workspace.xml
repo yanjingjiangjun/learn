@@ -1,100 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4efd965e-9adf-447e-8c88-f67d490bee0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/datastruct/linkTable/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/PracticeMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/PracticeMergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/SelectedSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/SelectedSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/SortUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/SortUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/CaseGenerate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/CaseGenerate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/KMP.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/sort/BubbleSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/sort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/sort/InsertSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/sort/SelectedSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/sort/SelectedSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/sort/SortUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tonifu/learn/algorithm/sort/SortUtil.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/PracticeMergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-              <folding>
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/datastruct/linkTable/ReverseList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1051">
-              <caret line="98" column="38" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="38" />
-              <folding>
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/HeapSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="139" column="56" lean-forward="true" selection-start-line="139" selection-start-column="56" selection-end-line="139" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,12 +49,12 @@
     <option name="ONTO" value="refs/heads/master" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -143,11 +79,18 @@
       </list>
     </option>
   </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="710" />
   </component>
+  <component name="ProjectId" id="2eCgAUHc28K3DO6TcVcB0bR2kGx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -250,25 +193,24 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655190446770" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
@@ -279,8 +221,7 @@
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tonifu.learn.algorithm.Test" />
-      <module name="learn" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tonifu.learn.algorithm.*" />
@@ -305,6 +246,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -327,6 +269,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -340,6 +283,11 @@
       <workItem from="1652427228128" duration="11289000" />
       <workItem from="1654495608618" duration="9594000" />
       <workItem from="1654741339021" duration="10977000" />
+      <workItem from="1711413834918" duration="5831000" />
+      <workItem from="1711501644247" duration="3473000" />
+      <workItem from="1711603915919" duration="7087000" />
+      <workItem from="1738719540827" duration="8307000" />
+      <workItem from="1738889242284" duration="6334000" />
     </task>
     <task id="LOCAL-00001" summary="test2">
       <created>1653295958944</created>
@@ -433,7 +381,30 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test2" />
@@ -448,50 +419,47 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/InsertSort.java</url>
           <line>10</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/BubbleSort.java</url>
-          <line>116</line>
-          <properties />
+          <line>132</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
           <line>54</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
           <line>62</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
           <line>79</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
           <line>78</line>
-          <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/stringMatch/KmpPmt.java</url>
           <line>69</line>
-          <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/QuickSort.java</url>
-          <line>68</line>
-          <properties />
+          <line>71</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tonifu/learn/algorithm/sort/QuickSort.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

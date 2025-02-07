@@ -104,4 +104,15 @@ public class InsertSort {
             }
         }
     }
+    public static void test7(int[] arr){
+        if(null==arr||arr.length<2)return;
+        for(int i=1;i<arr.length;i++){
+            int temp=arr[i];
+            int j=i-1;
+            while(j>=0&&arr[j]>temp){
+                SortUtil.swap(arr,j,j+1);
+                j--;
+            }
+        }
+    }
 }

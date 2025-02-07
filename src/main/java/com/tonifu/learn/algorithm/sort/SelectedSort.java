@@ -23,7 +23,6 @@ public class SelectedSort {
         if(null==arr||arr.length<2)return;
         int len=arr.length;
         int minIdx=0;
-
         for(int i=0;i<len;i++){
             minIdx=i;
             for(int j=i+1;j<len;j++){

@@ -59,17 +59,19 @@ public class Test {
         //SelectedSort.test(tmp);
         //InsertSort.sort(tmp);
         //InsertSort.sortBetter(tmp);
-        //InsertSort.test6(tmp);
+        //InsertSort.test7(tmp);
+        //BubbleSort.test(tmp);
         //BubbleSort.sort(tmp);
-        //BubbleSort.test4(tmp);
+        //BubbleSort.test5(tmp);
         //BubbleSort.sortNormal(tmp);
         //BubbleSort.sortMoreBetter(tmp);
         //BubbleSort.sortMoreBetter2(tmp);
         //ShellSort.test6(tmp);
         //ShellSort.test(tmp);
         //PracticeMergeSort.sort2(tmp);
-        //QuickSort.sortTest2(tmp);
-        HeapSort.sort(tmp);
+        //QuickSort.doSortTest6(tmp);
+        //HeapSort.sort(tmp);
+        MergeSort.sort3(tmp);
         SortUtil.check(tmp,arr);
         for(int i:tmp){
             System.out.print(i+" ");

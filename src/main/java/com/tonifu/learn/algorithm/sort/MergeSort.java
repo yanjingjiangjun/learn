@@ -8,6 +8,7 @@ package com.tonifu.learn.algorithm.sort;
  * @ClassName: MergeSort
  * @Description: TODO
  * @Version 1.0
+ * 较好的讲解https://www.cnblogs.com/smileZAZ/p/18155964
  */
 public class MergeSort {
 
@@ -59,4 +60,104 @@ public class MergeSort {
         }
         return temp;
     }
+
+    public static void sort2(int[] arr){
+
+        doSort2(arr);
+
+
+    }
+    private static void doSort2(int[] arr){
+        if(null==arr)return;
+        if(arr.length<2)return;
+        int len=arr.length;
+        int[] temp=new int[len];
+        realSort2(arr,temp,0,len-1);
+    }
+
+    private static void realSort2(int[] arr, int[] temp, int left, int right) {
+        if(left>=right){
+            return;
+        }
+        int mid=left+(right-left)/2;
+
+        realSort2(arr,temp,left,mid);
+        realSort2(arr,temp,mid+1,right);
+        merge2(arr,temp,left,mid,right);
+    }
+
+    private static void merge2(int[] arr, int[] temp, int left, int mid, int right) {
+        int idx=0;
+        int l=left;
+        int r=mid+1;
+        while(l<=mid&&r<=right){
+            if(arr[l]<arr[r]){
+                temp[idx++]=arr[l++];
+            }else{
+                temp[idx++]=arr[r++];
+            }
+        }
+        while(l<=mid){
+            temp[idx++]=arr[l++];
+        }
+        while(r<=right){
+            temp[idx++]=arr[r++];
+        }
+        idx=0;
+        while(left<=right){
+            arr[left++]=temp[idx++];
+        }
+
+    }
+
+    public static void sort3(int[] arr){
+
+        doSort3(arr);
+
+
+    }
+
+    private static void doSort3(int[] arr) {
+        if(null==arr||arr.length<2)return;
+        int len=arr.length;
+        int[] temp=new int[len];
+        int left=0;
+        int right=len-1;
+        realSort3(arr,temp,left,right);
+    }
+
+    private static void realSort3(int[] arr, int[] temp, int left, int right) {
+        //递归终止条件
+        if(left>=right)return;
+        int mid=left+(right-left)/2;
+        realSort3(arr,temp,left,mid);
+        realSort3(arr,temp,mid+1,right);
+        merge3(arr,temp,left,mid,right);
+    }
+
+    private static void merge3(int[] arr, int[] temp, int left, int mid, int right) {
+        int idx=0;
+        int l=left;
+        int r=mid+1;
+        while(l<=mid&&r<=right){
+            if(arr[l]<=arr[r]){
+                temp[idx++]=arr[l++];
+            }else{
+                temp[idx++]=arr[r++];
+            }
+
+
+        }
+        while(l<=mid){
+            temp[idx++]=arr[l++];
+        }
+        while(r<=right){
+            temp[idx++]=arr[r++];
+        }
+        idx=0;
+        while(left<=right){
+            arr[left++]=temp[idx++];
+        }
+    }
+
 }

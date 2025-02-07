@@ -12,6 +12,22 @@ package com.tonifu.learn.algorithm.sort;
  * @Version 1.0
  */
 public class BubbleSort {
+    public static void test(int[] arr){
+        for(int i=arr.length-1;i>=0;i--){
+            boolean swap=false;
+            for(int j=0;j<i;j++){
+               /* if(arr[j]>arr[j+1]){//小到大正序排列
+                    swap=true;
+                    SortUtil.swap(arr,j,j+1);
+                }*/
+                if(arr[j]<arr[j+1]){//大到小倒序排列
+                    swap=true;
+                    SortUtil.swap(arr,j,j+1);
+                }
+            }
+            if(!swap)break;
+        }
+    }
     public static int[] sort(int[] arr){
         if(null==arr||arr.length==0)return new int[0];
         if(arr.length==1)return arr;
@@ -118,7 +134,7 @@ public class BubbleSort {
         //len-1 是最后一个位置的索引
         //取小于 是为了方便取值比较arr[j+1]
         int lastSwapIndex=0;
-        for(int i=len-1;i>=0;i--){
+        for(int i=len-1;i>=0;i--){//为什么这样写？因为之前的轮询时后面倒序位置已经排序好了，不需要再去遍历了
             boolean swap=false;
             for(int j=0;j<i;j++){
                 if(arr[j]>arr[j+1]){
@@ -179,6 +195,20 @@ public class BubbleSort {
                     swap=true;
                 }
 
+            }
+            if(!swap)break;
+        }
+    }
+    public static void test5(int[] arr){
+        if(null==arr||arr.length<2)return;
+        int len=arr.length;
+        for(int i=len-1;i>=0;i--){
+            boolean swap=false;
+            for(int j=0;j<i;j++){
+                if(arr[j]>arr[j+1]){
+                    SortUtil.swap(arr,j,j+1);
+                    swap=true;
+                }
             }
             if(!swap)break;
         }
