@@ -288,6 +288,22 @@ public class QuickSort {
         arr[start]=pivot;
         return start;
     }
-
+    private static int partionTest7(int[] arr, int left, int right) {
+        int pivote=arr[left];
+        int start=left;
+        int end=right;
+        while(start!=end){
+            while(start<end&&arr[end]>=pivote){
+                end--;
+            }
+            arr[start]=arr[end];
+            while(start<end&&arr[start]<=pivote){
+                start++;
+            }
+            arr[end]=arr[start];
+        }
+        arr[start]=pivote;
+        return start;
+    }
 
 }

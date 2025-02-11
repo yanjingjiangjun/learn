@@ -68,10 +68,10 @@ public class Test {
         //BubbleSort.sortMoreBetter2(tmp);
         //ShellSort.test6(tmp);
         //ShellSort.test(tmp);
-        //PracticeMergeSort.sort2(tmp);
+        PracticeMergeSort.sort2(tmp);
         //QuickSort.doSortTest6(tmp);
         //HeapSort.sort(tmp);
-        MergeSort.sort3(tmp);
+        //MergeSort.sort3(tmp);
         SortUtil.check(tmp,arr);
         for(int i:tmp){
             System.out.print(i+" ");

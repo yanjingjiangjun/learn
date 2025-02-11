@@ -69,7 +69,7 @@ public class PracticeMergeSort {
         int mid=left+(right-left)/2;
         doRealSort2(arr,temp,left,mid);
         doRealSort2(arr,temp,mid+1,right);
-        doMerge2(arr,temp,left,mid,right);
+        doMerge3(arr,temp,left,mid,right);
     }
 
     private static void doMerge2(int[] arr, int[] temp, int left, int mid, int right) {
@@ -89,6 +89,30 @@ public class PracticeMergeSort {
 
         while(end<=right){
             temp[idx++]=arr[end++];
+        }
+        idx=0;
+        while(left<=right){
+            arr[left++]=temp[idx++];
+        }
+    }
+    private static void doMerge3(int[] arr, int[] temp, int left, int mid, int right) {
+        int idx=0;
+        int l=left;
+        int r=mid+1;
+        while(l<=mid&&r<=right){
+            if(arr[l]<=arr[r]){
+                temp[idx++]=arr[l++];
+            }else{
+                temp[idx++]=arr[r++];
+            }
+
+
+        }
+        while(l<=mid){
+            temp[idx++]=arr[l++];
+        }
+        while (r<=right){
+            temp[idx++]=arr[r++];
         }
         idx=0;
         while(left<=right){

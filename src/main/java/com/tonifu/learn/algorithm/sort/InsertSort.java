@@ -30,7 +30,7 @@ public class InsertSort {
             int temp=arr[i];
             int j=i-1;
             for(;j>=0&&temp<arr[j];j--){
-                arr[j+1]=arr[j];//将前面的后移直到找到比目标数字小的或者相等的数据位置
+                arr[j+1]=arr[j];//将前面的后移直到找到比目标数字小的或者相等的数据位置，同时后移一位给目标值腾个位置
             }
             arr[j+1]=temp;
 
